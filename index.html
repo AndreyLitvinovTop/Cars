@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cars</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+   <header class="header">
+      <div class="container">
+         <div class="menu">
+            <a href="#">
+               <img src="image/logo.png" class="logo">
+            </a>
+            <nav>
+               <ul class="menu-nav">
+                  <li class="nav-li"><a href="#" class="nav-li-a">Main</a></li> 
+                  <li class="nav-li"><a href="#services" class="nav-li-a">Our services</a></li> 
+                  <li class="nav-li"><a href="#about" class="nav-li-a">About</a></li> 
+                  <li class="nav-li"><a href="#contacts" class="nav-li-a">Contacts</a></li> 
+               </ul>
+            </nav> 
+            <div class="language">
+               <p class="language-ru" onclick="ru()" id="lang-ru">Ru</p> 
+               <p class="language-en" onclick="en()" id="lang-en">En</p> 
+            </div> 
+            <img src="image/button-menu.png" id="menu" onclick="menu()" class="menu-button">
+         </div> 
+         <div class="header-content">
+            <h1 class="header-title">KEEPING YOU ON THE ROAD WITH SERVICE YOU CAN TRUST</h1> 
+            <a href="#" class="header-button">Show more</a>
+         </div> 
+      </div>
+   </header> 
+   <section class="address-blocks">
+      <div class="container">
+         <div class="address-content">
+            <div class="tel">
+                <img src="image/tel-icon.png" class="tel-icon">
+                <h1 class="tel-title">CALL US NOW 222-222-222</h1>
+                <p class="tel-text">Feel free to call us</p>
+             </div>
+             <div class="calend">
+                <img src="image/calend-icon.svg" class="calend-icon">
+                <h1 class="calend-title">GET FREE APPOITMET</h1>
+                <p class="calend-text">Free Diagnosis & Brake Checks</p> 
+             </div>
+             <div class="address">
+                <img src="image/address-icon.png" class="address-icon">
+                <h1 class="address-title">FIND US ON MAP</h1>
+                <p class="address-text">New York, 1286 Ruumu Nanor</p> 
+             </div>
+         </div> 
+      </div> 
+   </section>
+   <!-- Сервис -->
+   <section id="services" class="section-services">
+      <div class="container">
+         <h1 class="services-title">OUR SERVICES</h1>
+         <a href="#" class="services-text">VIEW ALL SERVICES</a>
+         <div class="services-content">
+            <div class="diagnostic">
+               <div class="diagnostic-block">
+                  <div class="diagnostic-menu">
+                     <img src="image/plus-icon.png" class="plus-icon">
+                     <p class="diagnostic-text">
+                        ANNUAL CHECKUPS 
+                        <br>
+                        FROM YOUR 
+                        <br>
+                        PHYSICIAN KEEP YOU 
+                        <br>
+                        IN GOOD HEALTH
+                     </p>
+                  </div>
+               </div>
+               <h1 class="diagnostic-title">DIAGNOSTIC</h1>
+            </div>
+            <div class="wheels">
+               <div class="wheels-block">
+                  <div class="wheels-menu">
+                     <img src="image/plus-icon.png" class="plus-icon">
+                  </div>
+               </div>
+               <h1 class="wheels-title">TIRES & WHEELS</h1>
+            </div> 
+            <div class="engines">
+               <div class="engines-block">
+                  <div class="wheels-menu">
+                     <img src="image/plus-icon.png" class="plus-icon">
+                  </div>
+               </div>
+               <h1 class="engines-title">ENGINES</h1>
+            </div> 
+         </div>
+      </div> 
+   </section>
+   <!-- О компании -->
+   <section id="about" class="section-understand">
+      <div class="container">
+         <div class="understand">
+            <div class="understand-content">
+               <h1 class="understand-title">
+                  WE UNDERSTAND HOW 
+                  <br>
+                  IMPORTANT IT IS TO FIND
+                  <br>
+                  THE RIGHT AUTO SERVICE   
+               </h1>
+               <p class="understand-text">
+                  Car repairs and maintenance can be 
+                  <br>
+                  expensive and no one wants to have pay to 
+                  <br>
+                  repair damage caused by shoddy repair 
+                  <br>
+                  service. When you bring your car into our 
+                  <br>
+                  auto shop, you won’t have to worry because 
+                  <br>
+                  our staff is comprised of ASE certified 
+                  <br>
+                  technicians who are committed to making 
+                  <br>
+                  sure you have a safe dependable car.
+               </p>
+               <a href="#" class="understand-a">MORE ABOUT US</a>
+            </div>
+            <img src="image/understand-image.jpg" class="understand-image">
+         </div>
+      </div>
+   </section>
+   <!-- Процесс работы -->
+   <section class="section-workprocess">
+      <div class="container">
+         <h1 class="workprocess-title">FAST & EASY</h1>
+         <p class="workprocess-text">our work process</p>
+         <div class="workprocess-fast">
+            <div class="request">
+               <h1 class="request-title">1.Request your quote</h1>
+               <p class="request-text">
+                  We will be there when you most
+                  <br> 
+                  need us
+               </p>
+            </div>
+            <div class="bring">
+               <h1 class="bring-title">02. BRING YOUR VEHICLE</h1>
+               <p class="bring-text">We are car guys at heart</p>
+            </div>
+            <div class="repaired">
+               <h1 class="repaired-title">03. GET IT REPAIRED</h1>
+               <p class="repaired-text">High quality, low cost car servicing</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Связь -->
+   <section class="contacts">
+      <div class="container">
+         <h1 class="contacts-title">Contact us</h1> 
+         <form class="inputs-name">
+            <input class="input-name" placeholder="Name">
+            <input class="input-lastname" placeholder="Last name">
+         </form> 
+         <form class="inputs-contact">
+            <input class="input-email" type="email" placeholder="Email">
+            <input class="input-tel" type="tel" placeholder="22334455">
+         </form>
+         <textarea class="input-message" placeholder="Message" rows="5"></textarea>
+         <a href="#" class="contact-button">Send</a>
+      </div>
+   </section>
+   <!-- Подвал сайта -->
+   <footer class="footer">
+      <div class="container">
+         <div class="footer-menu">
+            <p class="footer-text">© 2021 Auto theme by Frontend Tricks</p>
+            <div class="social">
+               <a href="#" target="_blank">
+                  <img src="image/in-icon.png" class="in-icon">
+               </a>
+               <a href="#" target="_blank">
+                  <img src="image/facebook-icon.svg" class="facebook-icon">
+               </a>
+               <a href="#" target="_blank">
+                  <img src="image/instagram-icon.svg" class="instagram-icon">
+               </a>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="script.js"></script>
+</body>
+</html>
